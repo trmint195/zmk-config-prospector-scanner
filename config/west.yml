@@ -2,7 +2,7 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: prospector
+    - name: trmint195
       url-base: https://github.com/t-ogura
   projects:
     - name: zmk
@@ -10,7 +10,7 @@ manifest:
       revision: main
       import: app/west.yml
     - name: prospector-zmk-module
-      remote: prospector
+      remote: trmint195
       revision: v2.2.0
       path: modules/prospector-zmk-module
   self:
